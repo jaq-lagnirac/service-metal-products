@@ -59,7 +59,7 @@ def generate_permutations(char_list : list,
         permutation = ''.join(char_list) # converts from list to str
         if permutation not in permutations: # ensures only unique added
             permutations.append(permutation)
-        return permutations
+        return
 
     for index, _ in enumerate(char_list):
         swap(char_list, left_index, index) # swap current char with next
