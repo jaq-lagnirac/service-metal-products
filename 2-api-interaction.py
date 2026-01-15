@@ -11,12 +11,7 @@ import requests
 def main() -> None:
     """The main program."""
 
-
     URL = 'https://jsonplaceholder.typicode.com/todos'
-
-    # response = requests.get(url, params={'id':200})
-    # print(response.json())
-    # return
 
     ### 1) get the 200 most recent TODOs
     # The preferred way to do it would be to set parameters to sort
