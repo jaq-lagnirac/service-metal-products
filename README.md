@@ -12,6 +12,8 @@ The development of this code was conducted in a WSL2 Ubuntu environment. Install
 
 The code for this question can be found in [1-database-design.sql](1-database-design.sql).
 
+The entry is based on the [following product](https://www.pvcfittingsonline.com/collections/pvc-gate-valves/products/2-pvc-socket-gate-valve-spears-2022-020) on [PVCFittingsOnline.com](https://www.pvcfittingsonline.com/).
+
 The code was developed and tested using MariaDB v15.1, a popular fork of MySQL. The submission will work with either a MariaDB or MySQL installation.
 
 If using WSL2, after MariaDB installation and set-up, run the following code to create and display the table:
